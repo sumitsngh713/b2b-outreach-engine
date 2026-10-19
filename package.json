@@ -1,0 +1,13 @@
+{
+  "name": "b2b-outreach-automation",
+  "version": "1.0.0",
+  "description": "Production B2B Lead Gen & Outreach Automation Engine for Delhi NCR",
+  "main": "src/discovery/website_analyzer.js",
+  "scripts": {
+    "start": "python server.py",
+    "audit": "node src/discovery/website_analyzer.js"
+  },
+  "dependencies": {
+    "playwright": "^1.42.1"
+  }
+}
